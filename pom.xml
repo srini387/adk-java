@@ -71,7 +71,7 @@
     <assertj.version>3.27.3</assertj.version>
     <anthropic.version>1.4.0</anthropic.version>
     <maven-plugin-tools.version>3.9.0</maven-plugin-tools.version>
-    <httpclient5.version>5.4.3</httpclient5.version>
+    <httpclient5.version>5.5.1</httpclient5.version>
   </properties>
 
   <dependencyManagement>
@@ -319,8 +319,7 @@
           </dependencies>
           <configuration>
             <reportFormat>plain</reportFormat>
-            <statelessTestsetInfoReporter
-              implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5StatelessTestsetInfoTreeReporter" />
+            <statelessTestsetInfoReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5StatelessTestsetInfoTreeReporter"/>
             <includes>
               <include>**/*Test.java</include>
             </includes>
