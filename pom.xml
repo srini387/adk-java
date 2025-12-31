@@ -15,7 +15,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <tika.version>3.2.1</tika.version>
+        <tika.version>3.2.2</tika.version>
     </properties>
 
     <dependencies>
