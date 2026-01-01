@@ -19,7 +19,7 @@
   <properties>
     <spring-boot.version>3.3.4</spring-boot.version>
     <java.version>17</java.version>
-    <flogger.version>0.8</flogger.version>
+    <flogger.version>0.9</flogger.version>
     <exec.mainClass>com.google.adk.samples.a2a_remote.RemoteA2AApplication</exec.mainClass>
   </properties>
 
